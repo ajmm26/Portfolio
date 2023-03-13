@@ -1,5 +1,7 @@
 const{app}=require('./app')
+require('dotenv').config({path: './.env'});
+const PORT =process.env.PORT
 
-app.listen(3000)
+app.listen(PORT)
 
-console.log("Puerto 3000");
+console.log("Puerto"+ PORT);

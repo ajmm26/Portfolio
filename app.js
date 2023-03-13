@@ -28,6 +28,7 @@ app.engine(
 /*middlewares*/
 app.set("view engine", ".hbs");
 app.use(Express.urlencoded({extended:false}))
+app.use(Express.static("public"))
 app.use(Morgan('dev'))
 app.use(router)
 
