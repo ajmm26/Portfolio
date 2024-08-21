@@ -23,7 +23,7 @@ function mopher() {
     });
 
     // Reproducir el segundo sonido después de 4 segundos
-    setTimeout(segundoSonido, 4000);
+    setTimeout(segundoSonido, 3000);
 }
 
 function segundoSonido() {

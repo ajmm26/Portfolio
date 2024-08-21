@@ -189,22 +189,37 @@ margin:8%;
     align-items: center;
     flex: 1 1 auto;
     flex-direction: column;
-    
 
-   
-   
    
 }
 
+#div-superponer{
+    position: absolute;
+    top: 1%;
+    left: 67.9%;
+    width: 11em;
+    height: 85%;
+    background-color: rgba(255, 0, 0, 0.5); /* Color rojo con opacidad */
+    pointer-events: none; /* Permite interactuar con la imagen debajo */
+    border-radius: 50%;
+    
+    
+
+}
+
+
+
 
 .img{
-    width: 200px;
-    height: 300px;
+    width: 11em;
     border-radius: 50% ;
     object-fit: cover;
     position: relative;
     border: 3px solid #F0F8FF;
-   
+    display: block;
+    height: 60%;
+
+    
 
 
 }
