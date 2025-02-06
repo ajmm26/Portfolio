@@ -13,6 +13,7 @@ const morgan= Morgan();
 /*configuracion de hbs*/
 app.set("views", path.join(__dirname, "views"));
 
+
 app.engine(
   ".hbs",
   create ({
