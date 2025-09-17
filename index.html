@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/Responsive.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Alejandro Maza Portfolio</title>
+</head>
+<body class="darkmode--activated">
+<header>
+    <nav class="nav" id="nav-bar">
+        
+        <div id="div-nav">
+        <div id="div-ul">
+        <ul id="ul">
+            <li id="tittle-port">
+                <p id="text-port"> Portfolio</p> 
+            </li>
+        </ul>
+        </div>
+        <div id="div-nav2">
+        <ul id="ul-div2">
+            <li class="li-2">
+               <a href="#" class="li-a"> About Me</a>
+            </li>
+            <li class="li-2">
+                <a href="#" class="li-a">Proyects</a>
+            </li >
+            <li class="li-2">
+               <a href="#" class="li-a">Contact</a>
+            </li>
+                <div id="div-luna">
+                     <label class="switch"></label>
+                     <img src="./img/luna.png" alt="" id="img-luna">
+                     <span class="slider"></span>
+                </div>
+        </ul>
+        <div id='div-boton-menu-oculto'>
+        <img class="boton-menu-desplegable" src="./img/barra-de-menu-tema-claro.png" alt="" id="boton-tema-claro">
+        </div>
+        </div>
+        </div>
+       
+    </nav>
+</header>
+<main id="main">
+    <div id="big-dain">
+    <div class="div-main" id="div-1">
+        <div id="div-main-parrafos">
+         <div class="parrafos-clases"> 
+        <p class="name-main" id="name1">
+           Alejandro 
+        </p>
+         </div>
+         <div class="parrafos-clases">
+        <p class="name-main" id="name2">
+         Maza
+        </p>
+         </div>
+         <div class="parrafos-clases">
+        <p>Hi, I'm PHP Backend Developer </p>
+         </div>
+        </div>
+        <div id="links">
+            <div id="div-links">
+            <a href="https://www.linkedin.com/in/alejandro-maza-1a24b2251" target="_blank" class="blank-img"><img src="./img/logo-linkedin.png"  id="button-linkedin" alt=""></a>
+            <a href="" target="_blank" class="blank-img"><img id="github-button" src="./img/R (2).png" alt=""></a>
+            <a  href="" class="blank-img"><img id="email-button" src="./img/email-logo-png-19.png" alt=""></a>
+        </div>
+        <div id="">
+            <button id="button-CV" class="boton-18" role="button">
+                <a id="buttonA-cv" download="Alejandro_Maza" href="./Alejandro_Maza_CV.pdf">Descargar Cv</a></button>
+            </div>
+            </div>   
+    </div>
+    <div id="div-img">
+        <div id="contenedor-de-imagen">
+        <img class="img" id="img-ranger" src="./img/Myself.png" alt="">
+        </div>
+       <div id="div-superponer"></div>
+        <div id="div-morpher">
+       <button id="morpher"  class="morpher-button" role="button">
+         It's morphin' time
+       </button>
+        </div>
+    </div> 
+    <div id="morpher-oculto">
+        <button class="morpher-button" role="button" id="button-oculto">Power off</button>
+    </div>
+     </div>
+
+    <div id="div-proyecto">
+        <div id="text-p">
+            <h2 id="h2-parrafo">Proyectos</h2>
+        </div>
+        <div id="container-grilla">
+            <div class="grilla"></div>
+            <div class="grilla"></div>
+            <div class="grilla"></div>
+            <div class="grilla"></div> 
+        </div>
+    </div>
+</main>
+<footer id="pie-de-pagina">
+    <div id="div-pie-de-pagina">
+    <form action="https://formspree.io/f/xkgwynrb" method="post" id="form-pie-de-pagina" class="contacto">
+<div id="div-text-contacto">
+    <h1>Contacto</h1>
+</div>
+<div id="div-contacto-1" class="contacto">
+    <label for=""></label>
+<input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" name="name" >
+</div>
+<div id="div-contacto-2" class="contacto">
+    <label for=""></label>
+<input class="form-control" type="text" placeholder="email" aria-label="default input example" name="email" >
+</div>
+<div id="div-contacto-3" class="contacto">
+    <label for=""></label>
+<input class="form-control" type="text" placeholder="Asunto" aria-label="default input example" name="comments" >
+</div>
+<div class="form-floating" id="div-contacto-4">
+  <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea2" name="message"></textarea>
+  <label for="floatingTextarea2" id="label-textarea">Mensaje</label>
+</div>
+ <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3" id="button-enviar" value="enviar">Enviar</button>
+  </div>
+    </form>
+    <div id="div-tecnologias">
+    <div class="div-tecno" id="tecno1">
+      <h3>Tecnologias en este proyecto</h3> 
+    </div>
+    <div class="div-tecno" id="tecno2">
+     <h3>Tecnologias con conocimientos</h3>
+    </div>
+    </div>
+    </div>
+</footer>
+ <script src="./js/botones-morpher.js"></script>
+    <script src="./js/menu-desplegable.js"></script>
+</body>
+</html>
