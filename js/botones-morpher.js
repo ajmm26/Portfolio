@@ -66,7 +66,7 @@ function changeImgRanger(){
 
     setTimeout(()=>{
 
-        imagen.src='../img/Morphin.webp';
+        imagen.src='../img/Morphin.png';
 
     }, 7000)
 
@@ -86,7 +86,7 @@ buttonOff.innerText='Power OFF';
 function sonidoPowerOff(){
 
        const soundPowerOFF = document.createElement('audio');
-       soundPowerOFF.src = '../Sound/sound_power_off.mp3';
+       soundPowerOFF.src = '../Sound/power-off.mp3';
        document.body.appendChild(soundPowerOFF);
        soundPowerOFF.volume=1;
        soundPowerOFF.play();
