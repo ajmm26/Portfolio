@@ -26,7 +26,7 @@ function mopher() {
     changeImgRanger();
     // Crear y reproducir el primer sonido
     const sound = document.createElement('audio');
-    sound.src = '../public/Sound/sound_morphin.mp3';
+    sound.src = '../Sound/sound_morphin.mp3';
     sound.volume= 0.5;
     document.body.appendChild(sound);
     sound.play();
@@ -43,7 +43,7 @@ function mopher() {
 function segundoSonido() {
     // Crear y reproducir el segundo sonido
     const audio = document.createElement('audio');
-    audio.src = '../public/Sound/morphin-time.mp3';
+    audio.src = '../Sound/morphin-time.mp3';
     document.body.appendChild(audio);
     audio.volume=1;
     audio.play();
@@ -86,7 +86,7 @@ buttonOff.innerText='Power OFF';
 function sonidoPowerOff(){
 
        const soundPowerOFF = document.createElement('audio');
-       soundPowerOFF.src = '../public/Sound/sound_power_off.mp3';
+       soundPowerOFF.src = '../Sound/sound_power_off.mp3';
        document.body.appendChild(soundPowerOFF);
        soundPowerOFF.volume=1;
        soundPowerOFF.play();
@@ -121,7 +121,7 @@ function buttoNormalWidth(){
     setTimeout(()=>{
 
         buttonOff.remove();
-        imagen.src='img/Myself.png'
+        imagen.src='../img/Myself.png'
         contenedorMorpher.appendChild(boton)
         contenedorMorpher.style.marginLeft= '0px';
 
