@@ -86,7 +86,7 @@ buttonOff.innerText='Power OFF';
 function sonidoPowerOff(){
 
        const soundPowerOFF = document.createElement('audio');
-       soundPowerOFF.src = './Sound/power-off.mp3';
+       soundPowerOFF.src = './Sound/sound_power-off.mp3';
        document.body.appendChild(soundPowerOFF);
        soundPowerOFF.volume=1;
        soundPowerOFF.play();
