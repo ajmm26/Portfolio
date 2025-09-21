@@ -482,14 +482,14 @@ width: 100%;
 height:25em;
 margin-top: 5%;
 
-
 }
 
 #div-pie-de-pagina{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 
@@ -537,23 +537,27 @@ height: 8em;
 #div-tecnologias{
 
 display: flex;
-flex-direction: column;
-width: 100%;
+flex-direction:column;
 width: 40vw;
 height: 40vh;
 
-
 }
 
-#div-techn-img-portfolio{
+.tecnho-img{
     width: 70%;
     height: 30vh;
-    overflow: hidden;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: row;
 }
 
-#div-techn-img-portfolio img{
+.tecnho-img img{
     width: 30%;
     height: 30%;
     object-fit: contain;
     margin:15px 0px 0px 0px;
+}
+
+#div-tech-knowledge{
+    
 }
