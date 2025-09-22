@@ -468,12 +468,19 @@ margin-left: 11%;
 .grilla{
     margin: 5%;
     background-color: #0A66C2;
-    border-radius: 10%;
-    /*border: 5px solid #46b2d7;*/
+   height: 70%;
+    overflow: hidden;
     
 
 }
 
+.grilla img{
+
+width: 100%;
+height: 100s%;
+object-fit: contain;
+
+}
 
 /*PIE DE PAGINA (CONTACTO)*/
 
@@ -558,6 +565,3 @@ height: 40vh;
     margin:15px 0px 0px 0px;
 }
 
-#div-tech-knowledge{
-    
-}
